@@ -1,0 +1,9 @@
+:root {
+    --black: #222222;
+    --pink-bkg: #f1e4e6;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
