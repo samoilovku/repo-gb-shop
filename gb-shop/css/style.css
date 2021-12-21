@@ -3,6 +3,14 @@
     --pink-bkg: #f1e4e6;
 }
 
+.body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;

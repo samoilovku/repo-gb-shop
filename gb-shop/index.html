@@ -8,57 +8,71 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <img class="header__logo" src="./img/logo.svg" alt="logo">
-        <img class="header__search" src="./img/search.svg" alt="search">
-        <button class="header__button" type="button">
-            <img src="./img/burger.svg" alt="menu">
-        </button>
-        <a class="header__link" href="#"><img src="./img/profile.svg" alt="profile"></a>
-        <a class="header__link" href="#"><img src="./img/basket.svg" alt="basket"></a>
-        <nav class="header__menu">
-            <h2 class="header__menu-title">menu</h2>
-            <ul class="header__menu-list">
-                <il class="header__menu-item menu-sub-item">
-                    <h3 class="menu-sub-item__title">man</h3>
-                    <ul class="menu-sub-item__list">
-                        <il> <a class="menu-sub-item__item-link" href="#">accessories</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">bags</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">denim</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">t-shirts</a> </il>
-                    </ul>
-                </il>
-                <il class="header__menu-item menu-sub-item">
-                    <h3 class="menu-sub-item__title">woman</h3>
-                    <ul class="menu-sub-item__list">
-                        <il> <a class="menu-sub-item__item-link" href="#">accessories</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">jackets & coats</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">polos</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">t-shirts</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">shirts</a> </il>
-                    </ul>
-                </il>
-                <il class="header__menu-item menu-sub-item">
-                    <h3 class="menu-sub-item__title">kids</h3>
-                    <ul class="menu-sub-item__list">
-                        <il> <a class="menu-sub-item__item-link" href="#">accessories</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">jackets & coats</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">polos</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">t-shirts</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">shirts</a> </il>
-                        <il> <a class="menu-sub-item__item-link" href="#">bags</a> </il>
-                    </ul>
-                </il>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="header__container">
+                <div class="">
+                    <img class="header__logo" src="./img/logo.svg" alt="logo">
+                    <img class="header__search" src="./img/search.svg" alt="search">
+                </div>
+                <div class="header__nav-group">
+                    <button class="header__button" type="button">
+                        <img src="./img/burger.svg" alt="menu">
+                    </button>
+                    <a class="header__link" href="#"><img src="./img/profile.svg" alt="profile"></a>
+                    <a class="header__link" href="#"><img src="./img/basket.svg" alt="basket"></a>
+                </div>
+            </div>
+            <nav class="header__menu">
+                <h2 class="header__menu-title">menu</h2>
+                <ul class="header__menu-list">
+                    <il class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__title">man</h3>
+                        <ul class="menu-sub-item__list">
+                            <il> <a class="menu-sub-item__item-link" href="#">accessories</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">bags</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">denim</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">t-shirts</a> </il>
+                        </ul>
+                    </il>
+                    <il class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__title">woman</h3>
+                        <ul class="menu-sub-item__list">
+                            <il> <a class="menu-sub-item__item-link" href="#">accessories</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">jackets & coats</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">polos</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">t-shirts</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">shirts</a> </il>
+                        </ul>
+                    </il>
+                    <il class="header__menu-item menu-sub-item">
+                        <h3 class="menu-sub-item__title">kids</h3>
+                        <ul class="menu-sub-item__list">
+                            <il> <a class="menu-sub-item__item-link" href="#">accessories</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">jackets & coats</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">polos</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">t-shirts</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">shirts</a> </il>
+                            <il> <a class="menu-sub-item__item-link" href="#">bags</a> </il>
+                        </ul>
+                    </il>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section>
-            <img src="./img/man.png" alt="man">
-            <h1>the brand of luxerious fashion</h1>
+        <section class="brand">
+            <img class="brand__img" src="./img/man.png" alt="man" width="800" height="765">
+            <div class="brand__title-wrp">
+                <h1 class="brand__title">the brand of luxerious fashion</h1>
+            </div>
         </section>
         <section>
             <h2>offer</h2>
@@ -86,39 +100,45 @@
             <p>shop for items based on what we featured in this week</p>
             <ul>
                 <li>
-                <img src="./img/product1.png" alt="product1">
-                <h3>ellery x m'o capsule</h3>
-                <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery teams up with moda operandi.</p>
-                <p>$52.00</p>
+                    <img src="./img/product1.png" alt="product1">
+                    <h3>ellery x m'o capsule</h3>
+                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery
+                        teams up with moda operandi.</p>
+                    <p>$52.00</p>
                 </li>
                 <li>
                     <img src="./img/product2.png" alt="product2">
                     <h3>ellery x m'o capsule</h3>
-                    <p>nknown for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery teams up with moda operandi.</p>
+                    <p>nknown for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery
+                        teams up with moda operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
                     <img src="./img/product3.png" alt="product3">
                     <h3>ellery x m'o capsule</h3>
-                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery teams up with moda operandi.</p>
+                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery
+                        teams up with moda operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
                     <img src="./img/product4.png" alt="product4">
                     <h3>ellery x m'o capsule</h3>
-                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery teams up with moda operandi.</p>
+                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery
+                        teams up with moda operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
                     <img src="./img/product5.png" alt="product5">
                     <h3>ellery x m'o capsule</h3>
-                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery teams up with moda operandi.</p>
+                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery
+                        teams up with moda operandi.</p>
                     <p>$52.00</p>
                 </li>
                 <li>
                     <img src="./img/product6.png" alt="product6">
                     <h3>ellery x m'o capsule</h3>
-                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery teams up with moda operandi.</p>
+                    <p>known for her sculptural takes on traditional tailoring, australian arbiter of cool kym ellery
+                        teams up with moda operandi.</p>
                     <p>$52.00</p>
                 </li>
             </ul>
@@ -129,17 +149,20 @@
                 <li>
                     <img src="./img/freedelivery.svg" alt="freedelivery">
                     <h3>free delivery</h3>
-                    <p>worldwide delivery on all. authorit tively morph next-generation innov tion with extensive models.</p>
+                    <p>worldwide delivery on all. authorit tively morph next-generation innov tion with extensive
+                        models.</p>
                 </li>
                 <li>
                     <img src="./img/salesdiscount.svg" alt="salesdiscount">
                     <h3>free delivery</h3>
-                    <p>worldwide delivery on all. authorit tively morph next-generation innov tion with extensive models.</p>
+                    <p>worldwide delivery on all. authorit tively morph next-generation innov tion with extensive
+                        models.</p>
                 </li>
                 <li>
                     <img src="./img/quality.svg" alt="quality">
                     <h3>free delivery</h3>
-                    <p>worldwide delivery on all. authorit tively morph next-generation innov tion with extensive models.</p>
+                    <p>worldwide delivery on all. authorit tively morph next-generation innov tion with extensive
+                        models.</p>
                 </li>
             </ul>
         </section>
